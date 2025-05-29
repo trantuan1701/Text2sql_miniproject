@@ -1,0 +1,19 @@
+﻿Service_pk,Kiểu dữ liệu,Định nghĩa,Định nghĩa chi tiết,Ví dụ ngày hiện tại là 18/12/2024,Definition
+SERVICE_PK,VARCHAR(255) NOT NULL,mã chỉ tiêu,,,SERVICE_PK được định nghĩa là mã chỉ tiêu
+DAY_VALUE,FLOAT,thực hiện ngày,Số ngày 18/12/2024,,DAY_VALUE được định nghĩa là thực hiện ngày
+MONTH_VALUE,FLOAT,lũy kế trong tháng tính từ đầu tháng đến ngày,Số lũy kế từ ngày 1/12/2024 - 18/12/2024,,MONTH_VALUE được định nghĩa là lũy kế trong tháng tính từ đầu tháng đến ngày
+QUARTER_VALUE,FLOAT,lũy kế trong quý tính từ đầu quý đến ngày ,Số lũy kế từ ngày 1/10/2024 - 18/12/2024,,QUARTER_VALUE được định nghĩa là lũy kế trong quý tính từ đầu quý đến ngày 
+YEAR_VALUE,FLOAT,lũy kế trong năm tính từ đầu năm đến ngày ,Số lũy kế từ ngày 1/1/2024 - 18/12/2024,,YEAR_VALUE được định nghĩa là lũy kế trong năm tính từ đầu năm đến ngày 
+SPD_PERCENT,FLOAT,tỷ lệ chênh lệch ngày giữa ngày hôm nay và ngày hôm qua,=16/8*100%,,SPD_PERCENT được định nghĩa là tỷ lệ chênh lệch ngày giữa ngày hôm nay và ngày hôm qua
+SPM_DELTA,FLOAT,chênh lệch lũy kế tháng giữa tháng hiện tại và tháng trước,=9-18,,SPM_DELTA được định nghĩa là chênh lệch lũy kế tháng giữa tháng hiện tại và tháng trước
+SPM_PERCENT,FLOAT,tỷ lệ chênh lệch lũy kế tháng giữa tháng hiện tại và tháng trước,=19/18*100%,,SPM_PERCENT được định nghĩa là tỷ lệ chênh lệch lũy kế tháng giữa tháng hiện tại và tháng trước
+SPQ_DELTA,FLOAT,chênh lệch lũy kế quý giữa quý hiện tại và quý trước,=10-22,,SPQ_DELTA được định nghĩa là chênh lệch lũy kế quý giữa quý hiện tại và quý trước
+SPQ_PERCENT,FLOAT,tỷ lệ chênh lệch lũy kế quý giữa quý hiện tại và quý trước,=23/22*100%,,SPQ_PERCENT được định nghĩa là tỷ lệ chênh lệch lũy kế quý giữa quý hiện tại và quý trước
+SPY_DELTA,FLOAT,chênh lệch lũy kế năm giữa năm hiện tại và năm trước,=11-26,,SPY_DELTA được định nghĩa là chênh lệch lũy kế năm giữa năm hiện tại và năm trước
+SPY_PERCENT,FLOAT,tỷ lệ chênh lệch lũy kế năm giữa năm hiện tại và năm trước,=27/26*100%,,SPY_PERCENT được định nghĩa là tỷ lệ chênh lệch lũy kế năm giữa năm hiện tại và năm trước
+SPDM_PERCENT,FLOAT,tỷ lệ chênh lệch giữa ngày hôm nay và ngày này tháng trước,=30/29*100%,,SPDM_PERCENT được định nghĩa là tỷ lệ chênh lệch giữa ngày hôm nay và ngày này tháng trước
+SPMY_DELTA,FLOAT,chênh lệch lũy kế tháng giữa tháng hiện tại và tháng cùng kỳ năm trước,=9-32,,SPMY_DELTA được định nghĩa là chênh lệch lũy kế tháng giữa tháng hiện tại và tháng cùng kỳ năm trước
+SPMY_PERCENT,FLOAT,tỷ lệ chênh lệch lũy kế tháng giữa tháng hiện tại và tháng cùng kỳ năm trước,=33/32*100%,,SPMY_PERCENT được định nghĩa là tỷ lệ chênh lệch lũy kế tháng giữa tháng hiện tại và tháng cùng kỳ năm trước
+SPQY_DELTA,FLOAT,chênh lệch lũy kế quý giữa quý hiện tại và quý cùng kỳ năm trước,=10-35,,SPQY_DELTA được định nghĩa là chênh lệch lũy kế quý giữa quý hiện tại và quý cùng kỳ năm trước
+SPQY_PERCENT,FLOAT,tỷ lệ chênh lệch lũy kế quý giữa quý hiện tại và quý cùng kỳ năm trước,=36/35*100%,,SPQY_PERCENT được định nghĩa là tỷ lệ chênh lệch lũy kế quý giữa quý hiện tại và quý cùng kỳ năm trước
+PARTITION_DATE,INT,ngày lấy dữ liệu,,,PARTITION_DATE được định nghĩa là ngày lấy dữ liệu
