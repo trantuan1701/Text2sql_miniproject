@@ -1,0 +1,15 @@
+pydantic
+langchain
+langchain-core
+langgraph
+langgraph-checkpoint
+langgraph-checkpoint-sqlite
+langchain-google-genai
+qdrant_client
+langchain-huggingface 
+langchain-community
+typing
+dotenv
+gradio
+huggingface_hub==0.25.2
+rank_bm25
