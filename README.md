@@ -43,17 +43,5 @@ Dataset: 60 business questions & 200 question–SQL pairs (single revenue table,
 3. Enable live SQL execution with latency logging.
 4. Expand schema coverage beyond a single revenue table.
 
----
-
-## 4 Citation
-
-    @misc{vds2025text2sql,
-      title   = {A Multi-Agent Framework for Text-to-SQL Generation and Business QA at VDS},
-      author  = {Tran Anh Tuan},
-      year    = {2025},
-      note    = {Internal Technical Report, Viettel Digital Services}
-    }
-
----
 
 © 2025 Viettel Digital Services – internal use only.
