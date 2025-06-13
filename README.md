@@ -1,4 +1,3 @@
-```markdown
 # Multi-Agent Text-to-SQL & Business QA at VDS
 
 > **Goal** – Automate two frequent analytics scenarios at VDS:
@@ -58,4 +57,3 @@ Dataset: 60 business questions & 200 question–SQL pairs (single revenue table,
 ---
 
 © 2025 Viettel Digital Services – internal use only.
-```
