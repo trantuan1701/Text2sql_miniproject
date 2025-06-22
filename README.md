@@ -35,8 +35,19 @@ The pipeline is orchestrated by **LangGraph** and powered by **Gemini Flash 2.0*
 Dataset: 60 business questions & 200 question–SQL pairs (single revenue table, 18 columns).
 
 ---
+## 3 Open-source model evaluation (zero-shot)
 
-## 3 Roadmap
+| Model                 | Text-to-SQL<br>Accuracy | Business-QA<br>Accuracy |
+|-----------------------|-------------------------|-------------------------|
+| **Qwen3-14B**         | **88.5 %**              | **96.67 %**             |
+| Qwen2.5-14B-Coder     | 70.5 %                 | **96.67 %**             |
+| Qwen2.5-7B            | 74.0 %                 | 86.67 %                 |
+| Qwen2.5-7B-Coder      | 70.0 %                 | 91.67 %                 |
+
+Dataset: 60 business questions & 200 question–SQL pairs (single revenue table, 18 columns).
+---
+
+## 4 Roadmap
 
 1. Fine-tune an on-premise open-source LLM on internal chat logs.
 2. Add a critic agent for automatic validation & guardrails.

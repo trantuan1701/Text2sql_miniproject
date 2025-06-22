@@ -1,7 +1,7 @@
 from src.agents.agentstate import AgentState
 from src.agents.buildgraph import app
 from langchain_core.messages import HumanMessage, AIMessage
-from data.schema import schema_lines, meta_lines, core_lines
+from data.schema import schema_lines, meta_lines, core_lines #internal data(hiding)
 with open("src/schema/service_pk.txt","r", encoding="utf-8") as f:
     mapping = f.read().strip()
 with open("src/schema/m_schema.txt", "r", encoding="utf-8") as f:

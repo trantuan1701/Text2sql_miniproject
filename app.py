@@ -1,5 +1,4 @@
 import sys, os
-# Thêm src vào sys.path để import core
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
 import gradio as gr
@@ -59,5 +58,4 @@ with gr.Blocks(title="Chatbot Text2SQL", css=custom_css) as demo:
     clear_btn.click(lambda: ([], []), None, [chatbot, state])
 
 if __name__ == "__main__":
-    # Bạn có thể đổi share=True nếu muốn public link
     demo.launch()
