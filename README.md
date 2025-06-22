@@ -44,7 +44,9 @@ Dataset: 60 business questions & 200 question–SQL pairs (single revenue table,
 | Qwen2.5-7B            | 74.0 %                 | 86.67 %                 |
 | Qwen2.5-7B-Coder      | 70.0 %                 | 91.67 %                 |
 
+
 Dataset: 60 business questions & 200 question–SQL pairs (single revenue table, 18 columns).
+
 ---
 
 ## 4 Roadmap
